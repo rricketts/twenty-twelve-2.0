@@ -1,18 +1,23 @@
 /*
-Theme Name: Twenty Twelve
-Theme URI: http://wordpress.org/extend/themes/twentytwelve
-Author: the WordPress team
-Author URI: http://wordpress.org/
+Theme Name: Twenty Twelve 2.0
+Theme URI: https://github.com/rricketts/twenty-twelve-2.0
+Author: Richard Ricketts
+Author URI: http://www.rricketts.com
 Description: The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
-Version: 1.1
+Version: 2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, gray, white, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
-Text Domain: twentytwelve
+Text Domain: twentytwelve2
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+/* import new custom css */
+
+@import url("style2.css");
+
 
 /* =Notes
 --------------------------------------------------------------
@@ -525,7 +530,7 @@ a:hover {
 /* Page structure */
 .site {
 	padding: 0 24px;
-	padding: 0 1.714285714rem;
+	/*padding: 0 1.714285714rem;*/
 	background-color: #fff;
 }
 .site-content {
@@ -1430,13 +1435,14 @@ img#wpstats {
 	}
 	.site {
 		margin: 0 auto;
-		max-width: 960px;
-		max-width: 68.571428571rem;
+		max-width: 1024px;
+		/*max-width: 68.571428571rem;*/
 		overflow: hidden;
 	}
 	.site-content {
 		float: left;
-		width: 65.104166667%;
+		width: 70%;
+		/*width: 65.104166667%;*/
 	}
 	body.template-front-page .site-content,
 	body.single-attachment .site-content,
@@ -1589,10 +1595,10 @@ img#wpstats {
 		background-color: #e6e6e6;
 	}
 	body .site {
-		padding: 0 40px;
-		padding: 0 2.857142857rem;
-		margin-top: 48px;
-		margin-top: 3.428571429rem;
+		/*padding: 0 40px;*/
+		/*padding: 0 2.857142857rem;*/
+		/*margin-top: 48px;*/
+		/*margin-top: 3.428571429rem;*/
 		margin-bottom: 48px;
 		margin-bottom: 3.428571429rem;
 		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
